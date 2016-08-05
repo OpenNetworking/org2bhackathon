@@ -1,0 +1,34 @@
+
+#awards {
+    background: url(../img/bgimg1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+section {
+  font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
+  height: 100vh;
+}
+
+
+div.hex {
+    display: table;
+    padding: 5em 0;
+    margin: 0 auto;
+}
+
+div.hex div {
+    float: left;
+    font-size: 2.5em;
+    width: 4.166667em;
+    height: 5em;
+    margin: 9mm;
+    background: url(../img/hex.png) no-repeat;
+    background-size: 100%;
+    padding: 6.5mm;
+    text-align: center;
+    color: white;
+}
+
+
+
+
