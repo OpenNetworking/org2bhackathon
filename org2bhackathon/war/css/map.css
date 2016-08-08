@@ -4,9 +4,8 @@ section {
   height: 100vh;
 }
 
-#map iframe {
-    border: 0;
-    padding-top:13mm;
+#sec_map iframe {
+    padding-top:0;
 }
 
 

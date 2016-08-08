@@ -156,14 +156,4 @@ header h1 {
     font-size: 8.5em;
 }
 
-.map {
-        height: 100%;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 50%;
-    }
-}
-
 

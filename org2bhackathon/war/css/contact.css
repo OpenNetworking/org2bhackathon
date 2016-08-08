@@ -4,39 +4,39 @@ section {
   height: 100vh;
 }
 
-#contact {
+#sec_contact {
     background: url(../img/bgimg5.jpg) no-repeat center center;
     background-size: cover;
     color: white;
 }
 
-#contact  h2 {
+#sec_contact  h2 {
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    padding-top: 15mm;
+    padding-top: 5mm;
     border-bottom: 0.05em solid white;
 }
 
-#contact  ul {
+#sec_contact  ul {
     display: table;
     padding-top: 30mm;
     margin: 0 auto;
 }
 
-#contact li {
-    padding-left: 4em;
+#sec_contact li {
+    padding-left:23mm;
     display: table;
     text-align: left;
     margin: 0 auto;
 }
 
-#contact li:nth-child(1) {
+#sec_contact li:nth-child(1) {
     background: url(../img/icon_fb.svg) no-repeat 0 0;
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 
-#contact h3, #contact a {
+#sec_contact h3, #sec_contact a {
     margin: 0;
     color: white;
 }
