@@ -1,5 +1,5 @@
 
-div.awards{
+div.award{
   font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
   height: 100vh;
   background: url(../img/bgimg1.jpg) no-repeat center center;
@@ -9,16 +9,15 @@ div.awards{
 div.hex {
     display: table;
     float: center;
-    padding: 0 auto;
-    margin: 5mm auto;
+    margin: 2.6mm auto 2.6mm auto;
 }
 
 div.hex div {
-    float: left;
+    float: auto;
     font-size: 2.5em;
     width: 4.166667em;
     height: 5em;
-    margin: 1.6mm;
+    margin: 2.6mm;
     background: url(../img/hex.png) no-repeat;
     background-size: 100%;
     padding:7mm;

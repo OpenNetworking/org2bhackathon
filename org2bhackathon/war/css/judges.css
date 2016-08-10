@@ -1,14 +1,16 @@
 
 section {
-    height: 100vh;
   	font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
+  	height: 100vh;
+}
+
+.judges {
+	height: 100%;
+	width: 100%;
+	display: table;
+	color: #407cac;
 }
 
 .img-center {
 	margin: 0 auto;
-}
-
-.judges {
-	display: table;
-	color: #407cac;
 }

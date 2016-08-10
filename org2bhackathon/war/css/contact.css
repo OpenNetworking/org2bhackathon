@@ -4,13 +4,13 @@ section {
   height: 100vh;
 }
 
-#sec_contact {
+.contact {
     background: url(../img/bgimg5.jpg) no-repeat center center;
     background-size: cover;
     color: white;
 }
 
-#sec_contact  h2 {
+.contact  h2 {
     width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -18,25 +18,25 @@ section {
     border-bottom: 0.05em solid white;
 }
 
-#sec_contact  ul {
+.contact  ul {
     display: table;
     padding-top: 30mm;
     margin: 0 auto;
 }
 
-#sec_contact li {
+.contact li {
     padding-left:14mm;
     display: table;
     text-align: left;
     margin: 0 auto;
 }
 
-#sec_contact li:nth-child(1) {
+.contact li:nth-child(1) {
     background: url(../img/icon_fb.svg) no-repeat 0 0;
     font-size: 0.5em;
 }
 
-#sec_contact h3, #sec_contact a {
+.contact h3, .contact a {
     margin: 0;
     color: white;
     text-align: center;
