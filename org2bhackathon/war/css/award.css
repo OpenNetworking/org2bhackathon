@@ -8,8 +8,9 @@ div.awards{
 
 div.hex {
     display: table;
-    padding: 7em 0;
-    margin: 0 auto;
+    float: center;
+    padding: 0 auto;
+    margin: 5mm auto;
 }
 
 div.hex div {
@@ -17,17 +18,20 @@ div.hex div {
     font-size: 2.5em;
     width: 4.166667em;
     height: 5em;
-    margin: 4mm;
+    margin: 1.6mm;
     background: url(../img/hex.png) no-repeat;
     background-size: 100%;
-    padding: 6mm;
+    padding:7mm;
     text-align: center;
     color: white;
+    display: table;
 }
 
 div.hex div p {
     float: center;
+    display: inline-block;
     text-align: center;
+    font-size: 1em;
 }
 
 
