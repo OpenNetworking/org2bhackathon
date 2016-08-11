@@ -9,7 +9,7 @@ div.award{
 div.hex {
     display: table;
     float: center;
-    margin: 2.6mm auto 2.6mm auto;
+    margin: auto auto auto auto;
 }
 
 div.hex div {
