@@ -11,31 +11,30 @@ section {
 }
 
 .contact  h2 {
+    margin: 0 auto 0 auto;
+    padding-top: 5mm;
     width: 100%;
     text-align: center;
-    margin: 0 auto;
-    padding-top: 5mm;
     border-bottom: 0.05em solid white;
 }
 
 .contact  ul {
-    display: table;
     padding-top: 30mm;
+    padding-right: 320mm;
     margin: 0 auto 0 auto;
 }
 
 .contact li {
-    padding-left:4em;
     display: table;
+    padding-left:15mm;
     margin: 0 auto 0 auto ;
     background: url(../img/icon_fb.svg) no-repeat 0 0;
-    font-size: 0.5em;
 }
 
 .contact h3, .contact a {
     margin: 0 auto 0 auto;
     color: white;
-    text-align: center;
+    text-align: left;
 }
 
 
