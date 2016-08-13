@@ -1,19 +1,19 @@
-section {
+section .schedule{ 
   	font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
-  	height: 100%;
-  	color: #d88caa;
+  	height: 100vh;
   	display: table;
 }
 
 #schedule1 {
-	float: left;
+	display:inline-table;
 	color: #407dac;
-	width: 22em;
-	margin: 0;
+	width: 33%;
+    margin: 0;
+    text-align: center;
 }
 
-#schedule1 ul span {
-	float: left;
+#schedule1 ul, span {
+	float: center;
 	margin-left: 0.5em;
 }
 
@@ -24,13 +24,15 @@ section {
 }
 
 #schedule2 {
-	float: inherit;
-	width: 22em;
-	color: #407dac;
-	margin: 0;
+	display:inline-table;
+    text-align: center;
+    color: #407dac;
+	width: 33%;
+    margin: 0;
 }
 
-#schedule2 span {
+#schedule2 ul , span {
+	float: center;
 	margin-left: 0.5em;
 }
 
@@ -41,13 +43,15 @@ section {
 }
 
 #schedule3 {
-	float: inherit;
-	width: 22em;
+	display:inline-table;
+	text-align: center;
+	width: 33%;
 	color: #407dac;
 	margin: 0;
 }
 
-#schedule3 span {
+#schedule3 ul , span {
+	float: center;
 	margin-left: 0.5em;
 }
 
