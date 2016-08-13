@@ -21,9 +21,8 @@ div.contact  ul {
 
 div.contact li {
     display: table;
-    padding-left:18mm;
+    float: center;
     margin: 0 auto 0 auto ;
-    background: url(../img/icon_fb.svg) no-repeat 0 0;
 }
 
 div.contact a {

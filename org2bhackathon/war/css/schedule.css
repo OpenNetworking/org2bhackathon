@@ -1,13 +1,14 @@
-section .schedule{ 
+div .schedule{ 
   	font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
-  	height: 100vh;
+  	height: 100%;
   	display: table;
+  	color: black;
 }
 
 #schedule1 {
 	display:inline-table;
 	color: #407dac;
-	width: 33%;
+	width: 30%;
     margin: 0;
     text-align: center;
 }
@@ -27,7 +28,7 @@ section .schedule{
 	display:inline-table;
     text-align: center;
     color: #407dac;
-	width: 33%;
+	width: 30%;
     margin: 0;
 }
 
@@ -45,7 +46,7 @@ section .schedule{
 #schedule3 {
 	display:inline-table;
 	text-align: center;
-	width: 33%;
+	width: 30%;
 	color: #407dac;
 	margin: 0;
 }

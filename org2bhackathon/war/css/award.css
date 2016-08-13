@@ -6,21 +6,33 @@ div.award{
   background-size: cover;
 }
 
+div.award{
+  font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
+}
+
+div.award h2 {
+    color: white;
+    margin: 0 auto 0 auto;
+    padding-top: 3mm;
+    text-align: center;
+    border-bottom: 0.05em solid white;
+}
+
 div.hex {
     display: table;
     float: center;
-    margin: auto auto auto auto;
+    margin: 0 auto 0 auto;
 }
 
 div.hex div {
     float: auto;
-    font-size: 2.5em;
+    font-size: 2.25em;
     width: 4.166667em;
     height: 5em;
-    margin: 1mm;
+    margin: 1.5mm;
     background: url(../img/hex.png) no-repeat;
     background-size: 100%;
-    padding:7mm;
+    padding:6mm;
     text-align: center;
     color: white;
     display: table;
