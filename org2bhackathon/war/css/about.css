@@ -1,11 +1,16 @@
 /* About */
 
-div .about_white1 {
-	background-color:white;
+.about1 {
+    background-color:white;
+    padding-top: 1.6em;
+    padding-bottom: 0.5em;
+}
+
+div .about_1 {
     background-size:100%;
 }
 
-div h2.about_white1{
+div h2.about_1{
     background-image: url(../img/whiteh2_back.png);
     float: left;
     line-height: 0;
@@ -15,17 +20,22 @@ div h2.about_white1{
     margin-right: 2em;
     width:  11.4em;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #d88caa;
     font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
 }
 
-div .about_white2 {
-	background-color: #d9d9d9;
+.about2 {
+    background-color: #d9d9d9;
+    padding-top: 1.6em;
+    padding-bottom: 0.5em;
+}
+
+div .about_2 {
     background-size:100%;
 }
 
-div h2.about_white2 {
+div h2.about_2 {
     background-image: url(../img/whiteh2_back.png);
     background-size:100%;
     float: right;
@@ -34,7 +44,7 @@ div h2.about_white2 {
     padding-bottom: 5.56em;
     margin: 0 auto ;
     width: 11.4em;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     color: #d88caa;
     font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;

@@ -16,6 +16,7 @@
     <link href="css/index.css" rel="stylesheet">
     <link href="css/about.css" rel="stylesheet">
     <link href="css/workshop.css" rel="stylesheet">
+    <link href="css/schedule.css" rel="stylesheet">
     <link href="css/award.css" rel="stylesheet">
     <link href="css/judges.css" rel="stylesheet">
     <link href="css/contact.css" rel="stylesheet">
@@ -39,13 +40,16 @@
                 <a href="#workshop" onclick=$("#menu-close").click();>Workshops</a>
             </li>
             <li>
+                <a href="#sec_schedule" onclick=$("#menu-close").click();>Schedule</a>
+            </li>
+            <li>
                 <a href="#award" onclick=$("#menu-close").click();>Award</a>
             </li>
             <li>
                 <a href="#sec_judges" onclick=$("#menu-close").click();>Judges</a>
             </li>
             <li>
-                <a href="#sec_contact" onclick=$("#menu-close").click();>Contact Us</a>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact Us</a>
             </li>
             <li>
                 <a href="#sec_map" onclick=$("#menu-close").click();>Map</a>
@@ -67,8 +71,8 @@
     <!-- About -->
     <div id="about">
         <!-- Second -->
-        <div class="about_white1">
-                <h2 class="about_white1">About</h2>
+        <div class="about1">
+                <h2 class="about_1">About</h2>
                 <div class="container">
                 <h3>
                     <font size="3">
@@ -83,8 +87,8 @@
                 </div>
         </div>
         <!-- Second -->
-        <div class="about_white2">
-                <h2 class="about_white2">如何應用區塊鏈</h2>
+        <div class="about2">
+                <h2 class="about_2">如何應用區塊鏈</h2>
                 <div class="container">
                 <h3>
                     <font size="3">
@@ -103,8 +107,8 @@
     <!-- Workshop-->
     <div id='workshop'>
             <!-- First -->
-            <div class="workshop_white1">
-                    <h2 class="workshop_white1">2B 工作坊part1</h2><br>
+            <div class="workshop1">
+                    <h2 class="workshop_1">2B 工作坊part1</h2><br>
                     <div class="container">
                     <h3><font size="4"><strong>ICBB Workshop</strong></font><br></h3>
                     <ul>
@@ -117,17 +121,16 @@
                         <li>媒體報導：<a href="http://campus.chinatimes.com/20160730003915-262301">中時電子報</a></li>
                         </font>
                     </ul>
-                    </p>
                     </div>
             </div>
             <!-- Second -->
-            <div class="workshop_white2">
-                    <h2 class="workshop_white2">2B 工作坊part2</h2><br>
+            <div class="workshop2">
+                    <h2 class="workshop_2">2B 工作坊part2</h2><br>
                     <div class="container">
                     <h3><font size="4"><strong>ICBB Workshop</strong></font></h3><br>
                     <ul>
                         <font size="2">
-                        <li>時間：2016年8月14日 14:20-18:30</li>
+                        <li>時間：2016年8月14日 14:20-19:20</li>
                         <li>地點：台大資訊系館 (德田館) 103 室</li>
                         <li>費用：免費</li>
                         <li>議程：<a href="https://fintech.csie.ntu.edu.tw/2016/08/2b%E5%B7%A5%E4%BD%9C%E5%9D%8Apart2/">2B 工作坊part2</a>
@@ -135,12 +138,51 @@
                         <li>媒體報導：</li>
                         </font>
                     </ul>
-                    </p>
                 </div>
             </div>     
     </div>
 
-    <!-- Award Section-->
+    <!-- sec_schedule-->
+    <section id="sec_schedule">
+        <div class="container">
+            <h2>Schedule</h2>
+            <ul id="schedule1">
+                <strong><font size="5"><span style="color:black;">2016-08-19</span></font></strong><br>
+                <font size="3"><span>09:30</span></font>
+                <li>Registration</li><br>
+                <font size="3"><span>11:00</span></font>
+                <li>Opening ceremony</li><br>
+                <font size="3"><span>12:00</span></font>
+                <li>Hacking Start</li><br>
+                <font size="3"><span>13:30</span></font>
+                <li>Team building</li><br>
+                <font size="3"><span>18:30</span></font>
+                <li>Seminar</li>
+            </ul>
+            <ul id="schedule2">
+                <strong><font size="5"><span style="color:black;">2016-08-20</span></font></strong><br>
+                <br>
+                <li>Tech Talk</li><br>
+                <br>
+                <li>Design Talk</li><br>
+                <br>
+                <li>Mentor Time</li><br>
+            </ul>
+            <ul id="schedule3">
+                <strong><font size="5"><span style="color:black;">2016-08-21</span></font></strong><br>
+                <font size="3"><span>11:00</span></font>
+                <li>Developing Ends</li><br>
+                <font size="3"><span>12:00</span></font>
+                <li>Expo and Judging</li><br>
+                <font size="3"><span>15:00</span></font>
+                <li>Demo</li><br>
+                <font size="3"><span>17:00</span></font>
+                <li>Closing Ceremony</li><br>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Award-->
     <div id="award" class="award">
         <div class="container">
             <div class="hex">
@@ -176,18 +218,20 @@
         </div>
     </section>
 
-    <!-- Contact Section-->
-   <section id="sec_contact" class="contact">
-        <h2>Contact Us</h2>
-        <ul>
+    <!-- contact -->
+    <div id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
             <div class="container">
+            <ul>
             <li>
-                <h3><font size="4">HackNTU Fan Page</font></h3><br>
-                <font size="2"><a href="https://www.facebook.com/hackNTU/">https://www.facebook.com/hackNTU/</a></font>
+                <font size="4">HackNTU Fan Page</font><br>
+                <font size="1"><a href="https://www.facebook.com/hackNTU/">https://www.facebook.com/hackNTU/</a></font>
             </li>
+            </ul>
             </div>
-        </ul>
-    </section>
+        </div>
+    </div>
 
     <!-- Map Section-->
     <section id="sec_map">

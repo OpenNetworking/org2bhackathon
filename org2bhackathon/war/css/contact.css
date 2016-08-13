@@ -1,37 +1,32 @@
 
-section {
+div.contact{
   font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
   height: 100vh;
+  background: url(../img/bgimg5.jpg) no-repeat center center;
+  background-size: cover;
+  color: white;
 }
 
-.contact {
-    background: url(../img/bgimg5.jpg) no-repeat center center;
-    background-size: cover;
-    color: white;
-}
-
-.contact  h2 {
+div.contact  h2 {
     margin: 0 auto 0 auto;
     padding-top: 5mm;
-    width: 100%;
     text-align: center;
     border-bottom: 0.05em solid white;
 }
 
-.contact  ul {
-    padding-top: 30mm;
-    padding-right: 320mm;
+div.contact  ul {
+    padding-top: 8em;
     margin: 0 auto 0 auto;
 }
 
-.contact li {
+div.contact li {
     display: table;
-    padding-left:15mm;
+    padding-left:18mm;
     margin: 0 auto 0 auto ;
     background: url(../img/icon_fb.svg) no-repeat 0 0;
 }
 
-.contact h3, .contact a {
+div.contact a {
     margin: 0 auto 0 auto;
     color: white;
     text-align: left;

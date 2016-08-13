@@ -1,0 +1,59 @@
+section {
+  	font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
+  	height: 100%;
+  	color: #d88caa;
+  	display: table;
+}
+
+#schedule1 {
+	float: left;
+	color: #407dac;
+	width: 22em;
+	margin: 0;
+}
+
+#schedule1 ul span {
+	float: left;
+	margin-left: 0.5em;
+}
+
+#schedule1 li:nth-child(1n) {
+	border: 0.13em solid #407dac;
+	padding: 0.3em;
+	font-size: 2em;
+}
+
+#schedule2 {
+	float: inherit;
+	width: 22em;
+	color: #407dac;
+	margin: 0;
+}
+
+#schedule2 span {
+	margin-left: 0.5em;
+}
+
+#schedule2 li:nth-child(1n) {
+	border: 0.13em solid #407dac;
+	padding: 0.3em;
+	font-size: 2em;
+}
+
+#schedule3 {
+	float: inherit;
+	width: 22em;
+	color: #407dac;
+	margin: 0;
+}
+
+#schedule3 span {
+	margin-left: 0.5em;
+}
+
+#schedule3 li:nth-child(1n) {
+	border: 0.13em solid #407dac;
+	padding: 0.3em;
+	font-size: 2em;
+}
+
