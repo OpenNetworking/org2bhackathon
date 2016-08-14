@@ -1,19 +1,15 @@
 
-.map{
+.score_rating{
   font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
   height: 100vh;
+  background: url(../img/bgimg4.jpg) no-repeat center center;
+  background-size: cover;
 }
 
-.map h2 {
+.score_rating h2 {
+    color: white;
     margin: 0 auto 0 auto;
     padding-top: 5mm;
     text-align: center;
     border-bottom: 0.05em solid white;
 }
-
-.map iframe {
-    padding-top:0;
-}
-
-
-

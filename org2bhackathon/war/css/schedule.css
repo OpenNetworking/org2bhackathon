@@ -1,6 +1,6 @@
-div .schedule{ 
+.schedule{ 
   	font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
-  	height: 100%;
+  	height: 100vh;
   	display: table;
   	color: black;
 }
@@ -19,9 +19,9 @@ div .schedule{
 }
 
 #schedule1 li:nth-child(1n) {
-	border: 0.13em solid #407dac;
+	border: 0.15em solid #407dac;
 	padding: 0.3em;
-	font-size: 2em;
+	font-size: 1.2em;
 }
 
 #schedule2 {
@@ -38,9 +38,9 @@ div .schedule{
 }
 
 #schedule2 li:nth-child(1n) {
-	border: 0.13em solid #407dac;
+	border: 0.15em solid #407dac;
 	padding: 0.3em;
-	font-size: 2em;
+	font-size: 1.2em;
 }
 
 #schedule3 {
@@ -57,8 +57,8 @@ div .schedule{
 }
 
 #schedule3 li:nth-child(1n) {
-	border: 0.13em solid #407dac;
+	border: 0.15em solid #407dac;
 	padding: 0.3em;
-	font-size: 2em;
+	font-size: 1.2em;
 }
 

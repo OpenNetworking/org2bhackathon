@@ -1,30 +1,27 @@
 
-div.award{
+
+.award{
   font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
   height: 100vh;
   background: url(../img/bgimg1.jpg) no-repeat center center;
   background-size: cover;
 }
 
-div.award{
-  font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
-}
-
-div.award h2 {
+.award h2 {
     color: white;
     margin: 0 auto 0 auto;
-    padding-top: 3mm;
+    padding-top: 5mm;
     text-align: center;
     border-bottom: 0.05em solid white;
 }
 
-div.hex {
+.hex {
     display: table;
     float: center;
     margin: 0 auto 0 auto;
 }
 
-div.hex div {
+.hex div {
     float: auto;
     font-size: 2.25em;
     width: 4.166667em;
@@ -38,7 +35,7 @@ div.hex div {
     display: table;
 }
 
-div.hex div p {
+.hex div p {
     float: center;
     display: inline-block;
     text-align: center;

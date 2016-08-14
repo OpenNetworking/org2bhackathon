@@ -6,11 +6,11 @@
     padding-bottom: 0.5em;
 }
 
-div .about_1 {
+.about_1 {
     background-size:100%;
 }
 
-div h2.about_1{
+h2.about_1{
     background-image: url(../img/whiteh2_back.png);
     float: left;
     line-height: 0;
@@ -31,11 +31,11 @@ div h2.about_1{
     padding-bottom: 0.5em;
 }
 
-div .about_2 {
+.about_2 {
     background-size:100%;
 }
 
-div h2.about_2 {
+h2.about_2 {
     background-image: url(../img/whiteh2_back.png);
     background-size:100%;
     float: right;
@@ -50,7 +50,7 @@ div h2.about_2 {
     font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
 }
 
-div h3{
+h3{
     font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
     display: inline-block;
     text-align: left;
