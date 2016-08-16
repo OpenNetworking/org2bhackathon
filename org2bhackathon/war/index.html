@@ -15,13 +15,15 @@
     <!-- Custom CSS -->
     <link href="css/index.css" rel="stylesheet">
     <link href="css/about.css" rel="stylesheet">
+     <link href="css/news.css" rel="stylesheet">
     <link href="css/workshop.css" rel="stylesheet">
     <link href="css/schedule.css" rel="stylesheet">
-    <link href="css/score_rating.css" rel="stylesheet">
+    <link href="css/evaluation_criteria.css" rel="stylesheet">
     <link href="css/award.css" rel="stylesheet">
     <link href="css/judges.css" rel="stylesheet">
     <link href="css/contact.css" rel="stylesheet">
     <link href="css/map.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
 </head>
 
@@ -38,13 +40,16 @@
                 <a href="#about" onclick=$("#menu-close").click();>About</a>
             </li>
             <li>
+                <a href="#news" onclick=$("#menu-close").click();>News</a>
+            </li>
+            <li>
                 <a href="#workshop" onclick=$("#menu-close").click();>Workshops</a>
             </li>
             <li>
                 <a href="#sec_schedule" onclick=$("#menu-close").click();>Schedule</a>
             </li>
             <li>
-                <a href="#score_rating" onclick=$("#menu-close").click();>Score Rating</a>
+                <a href="#evaluation_criteria" onclick=$("#menu-close").click();>Evaluation Criteria</a>
             </li>
             <li>
                 <a href="#award" onclick=$("#menu-close").click();>Award</a>
@@ -65,7 +70,7 @@
     <header id='index' class="header">
         <div>
             <h1>2B Hack for food</h1>
-            <h2>Big Data &amp; Blockchain <br>運用大數據及區塊鏈技術在現實世界</h2><br>
+            <h2>Big Data &amp; Blockchain <br>運用大數據及區塊鏈技術玩真的</h2><br>
             <h2>2016.08.19-21</h2>
             <h2>2B, or not to be? Let's Hack!</h2><br>
             <a href="http://www.accupass.com/go/2016hackntu" target="_blank" class="btn btn-dark btn-lg">報名連結</a>
@@ -108,11 +113,38 @@
         </div>
     </div>
 
+    <!--News-->
+    <div id="news" class="news">
+        <div class="container">
+            <div class="col-lg-12">
+                    <h2 class="intro-text text-center">
+                        <strong>News</strong>
+                    </h2>
+            </div>
+            <div  class="col-lg-12" >
+                    <h1 align="center"> 
+                        <strong>亞洲黑客松對戰 千人大PK</strong>
+                        <br>
+                        <small style="color: white;">Augest 14,2016</small>
+                    </h1>
+                    <li>台大黑客松上周密集進行各議題工作坊，場場被各校學子搶報爆滿。</li>
+                    <li>該活動顧問台大資訊工程系教授廖世偉表示，去年就開放給國際團隊報名，要讓台灣學子真正面對挑戰，「這是磨練跨領域人才的實際戰場。」</li>
+                    <li>這黑客松活動，就跨國層級、議題探討來看，有目前最夯的金融科技（FinTech）、經濟資訊與能源解決方案，加上寶可夢Pokemon軟體的地圖與VR結合、
+                        區塊鏈與食品安全追蹤等。</li>
+                    <li>一則是政府開放資料庫的重要應用，更應關鍵機構如行政院科技辦公室、經濟部工業局，業界先驅國泰金控等，與主辦方之一臺灣大學的電機系、地理環境資源學系等同力進行。</li>
+                    <br>
+                    <p align="center">
+                    <a href="http://www.chinatimes.com/newspapers/20160814000325-260102" target="_blank" class="btn btn-default btn-lg">Read More</a>
+                    </p>
+            </div>
+        </div>
+    </div>
+    
     <!-- Workshop-->
     <div id='workshop'>
             <!-- First -->
             <div class="workshop1">
-                    <h2 class="workshop_1">2B 工作坊part1</h2><br>
+                    <h2 class="workshop_1"><font size="1">Big data and Blockchain 工作坊</font></h2><br>
                     <div class="container">
                     <h3><font size="4"><strong>ICBB Workshop</strong></font><br></h3>
                     <ul>
@@ -120,16 +152,18 @@
                         <li>時間：2016年7月30日 07:00-13:20</li>
                         <li>地點：台大資訊系館 (德田館) 104 室</li>
                         <li>費用：免費</li>
-                        <li>議程：<a href="https://fintech.csie.ntu.edu.tw/2016/07/2b%E9%A3%9F%E5%AE%89%E5%B7%A5%E4%BD%9C%E5%9D%8Apart1/">2B 工作坊part1</a>
+                        <li>議程：<a href="https://fintech.csie.ntu.edu.tw/2016/07/2016-big-data-and-blockchain-%E5%B7%A5%E4%BD%9C%E5%9D%8A/" target="_blank">
+                            Big data and Blockchain 工作坊</a>
                         </li>
-                        <li>媒體報導：<a href="http://campus.chinatimes.com/20160730003915-262301">中時電子報</a></li>
+                        <li>媒體報導：<a href="http://campus.chinatimes.com/20160730003915-262301" target="_blank">News</a>
+                        </li>
                         </font>
                     </ul>
                     </div>
             </div>
             <!-- Second -->
             <div class="workshop2">
-                    <h2 class="workshop_2">2B 工作坊part2</h2><br>
+                    <h2 class="workshop_2">2B 工作坊</h2><br>
                     <div class="container">
                     <h3><font size="4"><strong>ICBB Workshop</strong></font></h3><br>
                     <ul>
@@ -137,19 +171,20 @@
                         <li>時間：2016年8月14日 14:20-19:20</li>
                         <li>地點：台大資訊系館 (德田館) 104 室</li>
                         <li>費用：免費</li>
-                        <li>議程：<a href="https://fintech.csie.ntu.edu.tw/2016/08/2b%E5%B7%A5%E4%BD%9C%E5%9D%8Apart2/">2B 工作坊part2</a>
+                        <li>議程：<a href="https://fintech.csie.ntu.edu.tw/2016/08/2016-2b-%E5%B7%A5%E4%BD%9C%E5%9D%8A"  target="_blank">2B 工作坊</a>
                         </li>
-                        <li>媒體報導：<a href="http://campus.chinatimes.com/20160814003652-262301
-                            ">中時電子報</a></li>
+                        <li>媒體報導：<a href="http://campus.chinatimes.com/20160814003652-262301" target="_blank">News</a>
+                        </li>
                         </font>
                     </ul>
                 </div>
             </div>     
     </div>
 
+
     <!-- Schedule section-->
-    <section id="sec_schedule">
-        <div class="container" class="schedule">
+    <section id="sec_schedule" class="schedule">
+        <div class="container">
             <strong><font size="5"><span>Schedule</span></font></strong><br>
             <font size="4"><span style="align:center">at 台大綜合體育館</span></font><br>
             <ul id="schedule1">
@@ -215,7 +250,7 @@
                 <font size="2"><span>20:00-21:00</span></font>
                 <font size="2"><span>聯發科CTO梁伯嵩-能源Blockchain</span></font><br>
                 <font size="2"><span>21:00-22:00</span></font>
-                <font size="2"><span>林柏宇</span></font><br>
+                <font size="2"><span>林柏宇-Gcoin區塊鏈</span></font><br>
                 <font size="4"><span>23:00-00:00</span></font>
                 <li>宵夜</li>
                 <br>
@@ -239,11 +274,11 @@
         </div>
     </section>
 
-    <!-- Score Rating-->
-    <div id="score_rating" class="score_rating">
+    <!-- Evaluation Criteria-->
+    <div id="evaluation_criteria" class="evaluation_criteria">
         <div class="container">
-            <h2>Score Rating</h2><br>
-            <img class="img-responsive img-center" src="img/score_rating.png">
+            <h2>Evaluation Criteria</h2><br>
+            <img class="img-responsive img-center" src="img/evaluation_criteria.png">
         </div>
     </div>
 
@@ -281,11 +316,6 @@
                     <h1>江炯聰</h1>
                     <h2>台大工商管理學系教授</h2>
                 </div>
-                <div class="col-lg-4  text-center">
-                    <img class="img-circle img-responsive img-center" src="img/ph_t.png">
-                    <h1>柴惠珍</h1>
-                    <h2>行政院科技會報辦公室主任</h2>
-                </div>
         </div>
     </section>
 
@@ -296,9 +326,9 @@
             <div class="container">
             <ul>
             <li>
-                <font size="3"><a href="https://www.facebook.com/hackNTU/">HackNTU Fan Page</a></font><br>
-                <font size="3"><a href="https://www.facebook.com/2BHackathon/">2BHackathon Fan Page</a></font><br>
-                <font size="3"><a href="https://fintech.csie.ntu.edu.tw/">台大金融科技暨區塊鏈研究室</a></font><br>
+                <font size="3"><a href="https://www.facebook.com/hackNTU/" target="_blank">HackNTU Fan Page</a></font><br>
+                <font size="3"><a href="https://www.facebook.com/2BHackathon/" target="_blank">2BHackathon Fan Page</a></font><br>
+                <font size="3"><a href="https://fintech.csie.ntu.edu.tw/" target="_blank">台大金融科技暨區塊鏈研究室</a></font><br>
             </li>
             </ul>
             </div>

@@ -1,12 +1,12 @@
 
-.score_rating{
+.evaluation_criteria{
   font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
   height: 100vh;
   background: url(../img/bgimg4.jpg) no-repeat center center;
   background-size: cover;
 }
 
-.score_rating h2 {
+.evaluation_criteria h2 {
     color: white;
     margin: 0 auto 0 auto;
     padding-top: 5mm;
