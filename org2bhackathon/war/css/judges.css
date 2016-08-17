@@ -2,10 +2,9 @@
 .judges {
 	font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
 	height: 100vh;
-	display: table;
 	color: #407cac;
     margin: 0 auto 0 auto;
-    text-align: center;
+    display: table;
 }
 
 .judges  h2 {
