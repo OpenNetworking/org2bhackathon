@@ -1,14 +1,10 @@
 
-.judges {
+.sponsors {
 	font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
-	height: 100vh;
-	display: table;
-	color: #407cac;
-    margin: 0 auto 0 auto;
-    text-align: center;
+  	height: 100vh;
 }
 
-.judges  h2 {
+.sponsors  h2 {
 	color: black;
     margin: 0 auto 0 auto;
     padding-top: 4.5mm;
@@ -16,8 +12,18 @@
     border-bottom: 0.05em solid black;
 }
 
-.img-center {
-	margin: 0 auto;
-	padding-top: 4mm
+.sponsors  ul {
+	text-align: center;
+    padding-top: 5em;
+    margin: 0 auto 0 auto;
 }
+
+.sponsors li {
+	display: table;
+    float: center;
+    margin: 0 auto 0 auto ;
+}
+
+
+
 
