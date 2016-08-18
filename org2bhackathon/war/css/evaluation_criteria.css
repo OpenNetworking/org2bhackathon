@@ -17,23 +17,21 @@
 .pent {
     display: table;
     float: center;
-    padding:2mm;
+    padding:0;
     margin: 0 auto 0 auto;
 }
 
 .pent div {
     display: table;
-    font-size: 2.25em;
+    font-size: 1.6em;
     width: 4.166667em;
-    height: 5em;
-    margin: 0.8mm;
+    margin: 1mm;
     background: url(../img/pent.png) no-repeat;
     background-size: 100%;
-    padding-top:6mm;
+    padding-top:5mm;
     text-align: center;
     color: white;
 }
  .pent div p {
     text-align: center;
-    font-size: 1.25em;
 }
