@@ -29,14 +29,14 @@
     margin: 0.8mm;
     background: url(../img/hex.png) no-repeat;
     background-size: 100%;
-    padding-top:6mm;
+    padding-top:8mm;
     text-align: center;
     color: white;
 }
 
 .hex div p {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 

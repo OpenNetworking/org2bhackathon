@@ -8,13 +8,14 @@
 .api h2 {
     color: black;
     margin: 0 auto 0 auto;
-    padding-top: 4mm;
+    padding-top: 5mm;
     text-align: center;
     border-bottom: 0.05em solid black;
 }
 
-.api li {
+.api a {
     float: center;
     margin: 0 auto 0 auto ;
+    font-size: 1em;
 }
 
