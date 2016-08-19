@@ -2,8 +2,10 @@
 .evaluation_criteria{
   font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
   height: 100vh;
+  width: 100%;
   background: url(../img/bgimg2.jpg) no-repeat center center;
   background-size: cover;
+  display: table;
 }
 
 .evaluation_criteria h2 {
@@ -17,18 +19,19 @@
 .pent {
     display: table;
     float: center;
-    padding:0;
+    padding:3mm;
     margin: 0 auto 0 auto;
 }
 
 .pent div {
     display: table;
-    font-size: 1.6em;
+    font-size: 3em;
     width: 4.166667em;
-    margin: 1mm;
+    height: 5em;
+    margin: 5mm;
     background: url(../img/pent.png) no-repeat;
     background-size: 100%;
-    padding-top:6mm;
+    padding-top:5mm;
     text-align: center;
     color: white;
 }
