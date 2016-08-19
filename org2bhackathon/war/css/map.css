@@ -1,13 +1,13 @@
 
 .map{
   font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
-  background-color: black;
+  background-color:black;
   height: 100vh;
   color: white;
 }
 
 .map h2 {
-	color: white;
+    color: white;
     margin: 0 auto 0 auto;
     padding-top: 5mm;
     text-align: center;
