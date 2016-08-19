@@ -2,6 +2,8 @@
 .sponsors {
 	font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
   	height: 100vh;
+    margin: 0 auto 0 auto;
+    display: table;
 }
 
 .sponsors  h2 {
@@ -12,16 +14,9 @@
     border-bottom: 0.05em solid black;
 }
 
-.sponsors  ul {
-	text-align: center;
-    padding-top: 5em;
-    margin: 0 auto 0 auto;
-}
-
-.sponsors li {
-	display: table;
-    float: center;
-    margin: 0 auto 0 auto ;
+.img-center {
+    margin: 0 auto;
+    padding-top: 4mm;
 }
 
 

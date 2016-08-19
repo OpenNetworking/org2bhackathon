@@ -7,6 +7,7 @@
     width: 100%;
     color: white;
     display: table;
+    padding-bottom: 2mm;
 }
 
 .intro-text {
@@ -21,9 +22,16 @@
     border-bottom: 0.05em solid white;
 }
 
+.news h1 {
+    font-size: 2em;
+    color: white;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
 .news li{
     font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 
