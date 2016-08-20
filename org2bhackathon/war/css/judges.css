@@ -9,6 +9,7 @@
 
 .judges  h2 {
 	color: black;
+    width: 100%;
     margin: 0 auto 0 auto;
     padding-top: 4.5mm;
     text-align: center;
@@ -21,9 +22,17 @@
 }
 
 .judges  h1 {
+    font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
     text-align: center;
     font-size: 10mm;
 }
+
+.judges  h3 {
+    font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
+    text-align: center;
+    font-size: 6mm;
+}
+
 
 .judges  small {
     font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
