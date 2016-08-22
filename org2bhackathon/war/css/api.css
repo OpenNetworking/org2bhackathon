@@ -9,6 +9,7 @@
 
 .api h2 {
     font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
+    width: 100%;
     color: black;
     margin: 0 auto 0 auto;
     padding-top: 5mm;
